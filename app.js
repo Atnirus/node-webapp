@@ -18,10 +18,6 @@ app.use('/jquery-ui', express.static(__dirname + '/node_modules/jquery-ui/dist/'
 
 /** remove fix route and use path solution **/
 
-/**
- Create my-route
-**/
-
 /**app.get('/', function(req, res) {
     res.sendFile('public/index.html', { root: __dirname });
 });
